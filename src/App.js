@@ -21,6 +21,8 @@ function App() {
         
         <h1 className='title'> Rick & Morty </h1>
 
+        <h2> Hecha por José A. Préndiz / Oct-25-23</h2>
+
         { characters ? 
           (<Characters characters = {characters} setCharacters = {setCharacters} /> 
           ): (
